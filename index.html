@@ -1,85 +1,47 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thiết Kế Bot Giao Dịch Crypto</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="logo.png" type="image/png">
-
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thiết Kế Bot Giao Dịch Crypto - SODEV</title>
+  <link rel="icon" href="logo.png" type="image/png" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
+    body { margin:0; font-family:'Segoe UI',sans-serif; background:#f9f9f9;}
     header {
-      background-color: #0c1a32;
-      color: white;
-      padding: 40px 20px;
+      background:#ffffff;
+      border-bottom:2px solid #e2e8f0;
+      text-align:center; padding:40px 20px 20px;
     }
-
-    header img {
-      height: 60px;
-      margin-bottom: 20px;
-    }
-
+    header img { height:60px; margin-bottom:20px; }
+    header h1, header p { color:#1f2937; }
     section {
-      background-color: white;
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      text-align: left;
+      background:#fff;max-width:800px;margin:30px auto;padding:30px;
+      border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.05);text-align:left;
     }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    ul li::before {
-      content: "✅ ";
-      color: green;
-    }
-
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
-    }
-
-    @media (max-width: 600px) {
-      iframe {
-        height: 800px;
-      }
-    }
+    section h2 { color:#111827;font-size:22px; }
+    ul { list-style:none;padding:0;margin:20px 0; }
+    ul li::before { content:'✅ ';color:green; }
+    ul li { font-size:16px;margin-bottom:8px;color:#374151; }
+    p.form-note { margin-top:16px;color:#555; }
+    iframe { width:100%;height:650px;border:none;margin-top:30px;border-radius:10px; }
+    @media(max-width:600px){ iframe{height:800px;} }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="logo.png" alt="SODEV Logo">
+    <img src="logo.png" alt="SODEV Logo" />
     <h1>Thiết Kế Bot Giao Dịch Crypto Theo Yêu Cầu</h1>
     <p>Giải pháp tự động hóa chiến lược – theo đúng cách của bạn</p>
   </header>
-
   <section>
     <h2>Tại sao chọn SODEV?</h2>
     <ul>
       <li>Tùy biến theo chiến lược bạn muốn</li>
       <li>Hỗ trợ Binance Futures, Spot, WebSocket realtime</li>
-      <li>Cài đặt logic kỹ thuật: RSI, EMA, MACD, ATR, nến đảo chiều...</li>
-      <li>Có báo cáo, ghi log, DCA, stop-loss, đảo chiều vị thế...</li>
+      <li>Cài đặt logic kỹ thuật: RSI, EMA, MACD, ATR, nến đảo chiều…</li>
+      <li>Có báo cáo, ghi log, DCA, stop-loss, đảo chiều vị thế…</li>
     </ul>
-    <p>Vui lòng điền form dưới đây để chúng tôi tư vấn & gửi báo giá:</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCHCjGniEKSnRLVpixnzMis021fMOCuPhWIvgwlNhhS4xYFg/viewform?embedded=true">Đang tải…</iframe>
+    <p class="form-note">Vui lòng điền form dưới đây để chúng tôi tư vấn & gửi báo giá:</p>
+    <iframe src="https://forms.gle/c5P83vhb2ZQ1cWb89?embedded=true">Đang tải…</iframe>
   </section>
-
 </body>
 </html>
