@@ -1,60 +1,42 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Thiết Kế Bot Giao Dịch Crypto Tự Động - SODEV</title>
-  <meta name="description" content="Dịch vụ lập trình bot giao dịch tự động cho Binance, hỗ trợ theo chiến lược của bạn. Phân tích kỹ thuật, WebSocket, DCA, trailing stop và hơn thế nữa. Tư vấn miễn phí.">
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Thiết kế bot giao dịch crypto theo yêu cầu. Tùy chỉnh logic, hỗ trợ Binance Futures, WebSocket...">
+  <meta property="og:title" content="Thiết Kế Bot Giao Dịch Crypto - SODEV">
+  <meta property="og:description" content="Tùy chỉnh logic kỹ thuật, thông báo realtime, hỗ trợ Binance">
+  <meta property="og:image" content="https://bot.sodev.vn/logo.png">
+  <meta property="og:url" content="https://bot.sodev.vn">
+  <title>Thiết Kế Bot Giao Dịch Crypto - SODEV</title>
+  <link rel="icon" href="falogo.png" type="image/png" />
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
+    body { margin:0; font-family:'Segoe UI',sans-serif; background:#f9f9f9;}
     header {
-      background-color: #0f172a;
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
+      background:#ffffff;
+      border-bottom:2px solid #e2e8f0;
+      text-align:center; padding:40px 20px 20px;
     }
-    main {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: 0 auto;
+    header img { height:60px; margin-bottom:20px; }
+    header h1, header p { color:#1f2937; }
+    section {
+      background:#fff;max-width:800px;margin:30px auto;padding:30px;
+      border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.05);text-align:left;
     }
-    iframe {
-      width: 100%;
-      height: 1300px;
-      border: none;
-      background: white;
-    }
-    .intro {
-      margin-bottom: 30px;
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .intro h2 {
-      margin-top: 0;
-      color: #0f172a;
-    }
-    footer {
-      text-align: center;
-      font-size: 14px;
-      padding: 20px;
-      color: #777;
-    }
+    section h2 { color:#111827;font-size:22px; }
+    ul { list-style:none;padding:0;margin:20px 0; }
+    ul li::before { content:'✅ ';color:green; }
+    ul li { font-size:16px;margin-bottom:8px;color:#374151; }
+    p.form-note { margin-top:16px;color:#555; }
+    iframe { width:100%;height:650px;border:none;margin-top:30px;border-radius:10px; }
+    @media(max-width:600px){ iframe{height:800px;} }
   </style>
 </head>
 <body>
   <header>
-    <h1>Thiết Kế Bot Giao Dịch Crypto Tự Động Theo Chiến Lược Cá Nhân</h1>
-    <p>Tự động hóa phân tích kỹ thuật & chiến lược đầu tư – hoạt động 24/7</p>
+    <img src="logo.png" alt="SODEV Logo" />
+    <h1>Thiết Kế Bot Giao Dịch Crypto Theo Yêu Cầu</h1>
+    <p>Giải pháp tự động hóa chiến lược – theo đúng cách của bạn</p>
   </header>
-
   <main>
     <div class="intro">
       <h2>Dịch Vụ Lập Trình Bot Giao Dịch Tùy Biến – Hỗ Trợ Binance & Nhiều Hơn</h2>
@@ -70,12 +52,7 @@
       <p><strong>Miễn phí tư vấn – Triển khai bản mẫu trong 24h.</strong>  
       Hãy điền form bên dưới để chúng tôi liên hệ tư vấn & gửi báo giá phù hợp:</p>
     </div>
-
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCHCjGniEKSnRLVpixnzMis021fMOCuPhWIvgwlNhhS4xYFg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Đang tải…</iframe>
   </main>
-
-  <footer>
-    © 2025 SODEV.VN – Giải pháp tự động hóa giao dịch tiền mã hóa theo yêu cầu.
-  </footer>
 </body>
 </html>
